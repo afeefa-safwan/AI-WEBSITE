@@ -1,0 +1,80 @@
+/* header */
+*{
+    box-sizing:border-box ;
+}
+body{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    
+}
+.second-para{
+    margin-top: 30px;
+}
+.imgline{
+    display: flex;
+    align-items: center;
+    
+}
+.first-button a{
+    background-color: rgb(109, 188, 17);
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+}
+hr {
+    margin-bottom: 50px;
+    margin-top: 127px;
+}
+.second-part{
+    background: url(img/banner22.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second-part a{
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    gap: 20px;
+}
+.nav-btn{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+.a-btns{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 15px;
+
+}
+
+.users-platform {
+    background-color: #ffffff2b;
+    backdrop-filter: blur(25px);
+    color: white;
+    border-radius: 26px;
+    padding: 5px;
+}
+.user p{
+    max-width: 400px;
+}
+
+.user p {
+    max-width: 151px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
